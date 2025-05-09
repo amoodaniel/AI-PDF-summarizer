@@ -32,7 +32,8 @@ def summarizer(pdf):
         text = ""
         #Extract text from each page of the PDF
         for page in pdf_reader.pages:
-            text += page.extract_text() or ""
+            extracted_text = page.extract_text()
+            text += extracted_text if extracted_text is not None else ""
 
         #Process the extracted text to create a knowledge base
         knowledgeBase = process_text(text)
