@@ -1,6 +1,7 @@
 # AI PDF Summarizer
 
 A Streamlit-based web application that uses OpenAI's GPT-3.5 Turbo to generate concise summaries of PDF documents. The application processes PDF files, extracts text, and provides a 3-5 sentence summary of the content.
+<img width="1580" alt="AI-summ" src="https://github.com/user-attachments/assets/1dbd8e3d-06f0-4243-bcb0-4f90bd8bc627" />
 
 ## Features
 
